@@ -34,7 +34,7 @@ pipeline {
                                 [
                                   artifactId: 'applicationmaven',
                                   classifier: '',
-                                  file: 'target/applicationmaven-0.0.1-SNAPSHOT.jar',
+                                  file: 'target/applicationmaven-0.0.1.jar',
                                   type: 'jar'
                                 ]
                             ],
@@ -42,7 +42,7 @@ pipeline {
                             protocol: NEXUS_PROTOCOL,
                             nexusUrl: NEXUS_URL,
                             groupId: 'org.sid',
-                            version: '0.0.1-SNAPSHOT',
+                            version: '0.0.1',
                             repository: NEXUS_REPOSITORY,
                             credentialsId: NEXUS_CREDENTIAL_ID                             
                     
