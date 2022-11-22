@@ -44,7 +44,7 @@ pipeline {
                             groupId: 'org.sid',
                             version: '0.0.1-SNAPSHOT',
                             repository: NEXUS_REPOSITORY,
-                            credentialsId: NEXUS_CREDENTIAL_ID,                              
+                            credentialsId: NEXUS_CREDENTIAL_ID                             
                     
                     }
                 }
