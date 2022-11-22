@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script {
                     
-                        nexusArtifactUploader artifacts: [
+                          nexusArtifactUploader artifacts: [
                            
                                 [
                                   artifactId: 'applicationmaven',
@@ -50,5 +50,6 @@ pipeline {
                 }
             }
         }
+}
     
 
