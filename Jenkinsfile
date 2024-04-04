@@ -34,8 +34,8 @@ pipeline {
                                 [
                                   artifactId: 'applicationmaven',
                                   classifier: '',
-                                  file: 'target/applicationmaven-0.0.1.jar',
-                                  type: 'jar'
+                                  file: 'target/applicationmaven-0.0.1.war',
+                                  type: 'war'
                                 ]
                             ],
                             nexusVersion: NEXUS_VERSION,
