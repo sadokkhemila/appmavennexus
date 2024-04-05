@@ -42,7 +42,7 @@ pipeline {
                             protocol: NEXUS_PROTOCOL,
                             nexusUrl: NEXUS_URL,
                             groupId: 'org.sid',
-                            version: '0.0.1',
+                            version: '1.0.0',
                             repository: NEXUS_REPOSITORY,
                             credentialsId: NEXUS_CREDENTIAL_ID                             
                     
