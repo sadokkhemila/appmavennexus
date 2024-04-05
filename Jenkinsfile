@@ -34,7 +34,7 @@ pipeline {
                                 [
                                   artifactId: 'applicationmaven',
                                   classifier: '',
-                                  file: 'target/applicationmaven-0.0.1.war',
+                                  file: 'target/applicationmaven-1.0.0.war',
                                   type: 'war'
                                 ]
                             ],
